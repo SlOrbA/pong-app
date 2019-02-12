@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 
-app.get('*', (req, res) => {
+app.get('*', function (req, res) => {
   res.response('<html><head><title>Ping App</title></head><body><h1>Success!</h1></body></html>');
 });
 
