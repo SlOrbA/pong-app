@@ -4,6 +4,10 @@
 	"description": "Application to test http connection",
 	"author": "Lari Korpi <lari.korpi@iki.fi>",
 	"main": "pong-app.js",
+        "repository" : {
+		"type" : "git",
+		"url" : "https://github.com/slorba/pong-app.git"
+	},
 	"scripts": {
 		"start": "node pong-app.js"
 	},
