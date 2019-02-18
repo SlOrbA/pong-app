@@ -1,11 +1,11 @@
 {
-	"name": "ping-app",
+	"name": "pong-app",
 	"version": "1.0.0",
 	"description": "Application to test http connection",
 	"author": "Lari Korpi <lari.korpi@iki.fi>",
-	"main": "ping-app.js",
+	"main": "pong-app.js",
 	"scripts": {
-		"start": "node ping-app.js"
+		"start": "node pong-app.js"
 	},
 	"dependencies": {
 		"express": "^4.16.1"
