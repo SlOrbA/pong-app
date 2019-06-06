@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 
-app.post('*', (req, res) =>  res.send('<html><head><title>Ping App</title></head><body><h1>Success!</h1><p>' + req.body + '</p></body></html>'));
+app.post('*', (req, res) =>  res.send('<html><head><title>Pong App</title></head><body><h1>Success!</h1><p>' + req.body + '</p></body></html>'));
 
 app.listen(PORT, HOST);
 
