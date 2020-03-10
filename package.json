@@ -1,6 +1,6 @@
 {
 	"name": "pong-app",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Application to test http connection",
 	"author": "Lari Korpi <lari.korpi@iki.fi>",
 	"homepage": "https://github.com/slorba/pong-app#README.md",
